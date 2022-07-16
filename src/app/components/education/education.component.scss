@@ -1,0 +1,89 @@
+.education {
+  margin: 2rem;
+  padding: 2rem;
+  background-color: #ebedfc;
+}
+
+.education h2 {
+  color: darkslateblue;
+}
+
+.mile {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  border-bottom: 0.5px solid #88888850;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mile .thumb {
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  border: 0.5px solid rgba(107, 102, 142, 0.415);
+  padding: 0.5rem;
+  height: 50px;
+}
+
+.mile .thumb img {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 0;
+}
+
+.mile .details {
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  margin-left: 1.5rem;
+  width: 100%;
+}
+
+.mile h3, .mile h4 {
+  margin-bottom: 0;
+}
+
+.mile h4 {
+  font-size: small;
+}
+
+app-edition {
+  -webkit-order: 3;
+  -ms-flex-order: 3;
+  order: 3;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  margin-left: 1.5rem;
+}

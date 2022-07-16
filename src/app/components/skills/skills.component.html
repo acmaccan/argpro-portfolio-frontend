@@ -1,0 +1,11 @@
+<mat-card class="skills">
+  <app-add></app-add>
+  <h2>Skills</h2>
+    <div class="skill" *ngFor="let skill of skills">
+      <div class="detail">
+        <p>{{skill.skill}}</p>
+        <mat-progress-bar mode="determinate" value="{{skill.percentage}}"></mat-progress-bar>
+      </div>
+      <app-edition></app-edition>
+    </div>
+</mat-card>

@@ -1,0 +1,178 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "username": "username",
+      "password": "password",
+      "avatar": "../assets/images/me.jpeg",
+      "banner": "../assets/images/bg.jpg",
+      "firstname": "Andrea",
+      "lastname": "Maccan",
+      "ubication": "Buenos Aires, Argentina",
+      "title": "Desarrolladora FullStack Jr.",
+      "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    }
+  ],
+  "experience": [
+    {
+      "id": "1",
+      "thumb": "../assets/images/placeholder.svg",
+      "institution": "Austin-Thomas",
+      "details": "Diseño de papelería social y corporativa. Ajuste y corrección final de archivos. Envío de artes a imprenta. Conocimiento sobre límites y oportunidades en la impresión offset y láser, tintas y papeles. Control de calidad del producto final.",
+      "from_date": "2008",
+      "to_date": "2011"
+    },
+    {
+      "id": "2",
+      "thumb": "../assets/images/placeholder.svg",
+      "institution": "Freelance",
+      "details": "Graphic and web designer, developer, hosting services",
+      "from_date": "2007",
+      "to_date": "2016"
+    },
+    {
+      "id": "3",
+      "thumb": "../assets/images/placeholder.svg",
+      "institution": "Puntovero.com",
+      "details": "E-commerce Manager",
+      "from_date": "2016",
+      "to_date": "2021"
+    },
+    {
+      "id": "4",
+      "thumb": "../assets/images/placeholder.svg",
+      "institution": "VidaTec",
+      "details": "Desarrolladora Fullstack",
+      "from_date": "2022",
+      "to_date": "actualidad"
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "thumb": "../assets/images/placeholder.svg",
+      "institution": "Colegio Dardo Rocha",
+      "details": "",
+      "from_date": "1992",
+      "to_date": "1990"
+    },
+    {
+      "id": "2",
+      "thumb": "../assets/images/placeholder.svg",
+      "institution": "Instituto San Juan Bosco",
+      "details": "Bachiller en Economía y Gestión de las Organizaciones",
+      "from_date": "2003",
+      "to_date": "1992"
+    },
+    {
+      "id": "3",
+      "thumb": "../assets/images/placeholder.svg",
+      "institution": "Academia superior de Guitarra",
+      "details": "Profesora de Lenguaje Musical. Instructora de Guitarra. Instructora de Teclado.",
+      "from_date": "1992",
+      "to_date": "2015"
+    },
+    {
+      "id": "4",
+      "thumb": "../assets/images/placeholder.svg",
+      "institution": "Universidad Nacional de las Artes",
+      "details": "Licenciatura en Artes Visuales",
+      "from_date": "2004",
+      "to_date": "2007"
+    },
+    {
+      "id": "5",
+      "thumb": "../assets/images/placeholder.svg",
+      "institution": "Universidad John F. Kennedy",
+      "details": "Licenciatura en Psicología",
+      "from_date": "2007",
+      "to_date": "2009"
+    },
+    {
+      "id": "6",
+      "thumb": "../assets/images/placeholder.svg",
+      "institution": "Universidad Tecnológica Nacional",
+      "details": "Professional Webmaster",
+      "from_date": "2010",
+      "to_date": "2010"
+    },
+    {
+      "id": "7",
+      "thumb": "../assets/images/placeholder.svg",
+      "institution": "Universidad Tecnológica Nacional",
+      "details": "Desarrollo web con Javascript",
+      "from_date": "2011",
+      "to_date": "2012"
+    },
+    {
+      "id": "8",
+      "thumb": "../assets/images/placeholder.svg",
+      "institution": "Universidad Tecnológica Nacional",
+      "details": "Desarrollo avanzado con Javascript, JQuery y JSON",
+      "from_date": "2014",
+      "to_date": "2014"
+    },
+    {
+      "id": "9",
+      "thumb": "../assets/images/placeholder.svg",
+      "institution": "Universidad Tecnológica Nacional",
+      "details": "Fundamentos de la Programación",
+      "from_date": "2014",
+      "to_date": "2014"
+    },
+    {
+      "id": "10",
+      "thumb": "../assets/images/placeholder.svg",
+      "institution": "Universidad Nacional de las Artes",
+      "details": "Licenciatura en Curaduría en Artes",
+      "from_date": "2015",
+      "to_date": "2019"
+    }
+  ],
+  "skill": [
+    {
+      "id": "1",
+      "skill": "Gestión de tiempo",
+      "percentage": "70"
+    },
+    {
+      "id": "2",
+      "skill": "Angular",
+      "percentage": "65"
+    }
+  ],
+  "project": [
+    {
+      "id": "1",
+      "image": "../assets/images/bg.jpg",
+      "title": "Proyecto 1",
+      "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "link": "https://www.link.com/",
+      "project_year": "2020"
+    },
+    {
+      "id": "2",
+      "image": "../assets/images/bg.jpg",
+      "title": "Proyecto 2",
+      "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "link": "https://www.link.com/",
+      "project_year": "2021"
+    },
+    {
+      "id": "3",
+      "image": "../assets/images/bg.jpg",
+      "title": "Proyecto 3",
+      "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "link": "https://www.link.com/",
+      "project_year": "2022"
+    },
+    {
+      "id": "4",
+      "image": "../assets/images/bg.jpg",
+      "title": "Proyecto 4",
+      "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "link": "https://www.link.com/",
+      "project_year": "2022"
+    }
+  ]
+}

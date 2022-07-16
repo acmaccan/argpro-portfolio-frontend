@@ -1,0 +1,24 @@
+<div class="banner">
+  <img [src]="user.banner" alt="background" />
+</div>
+
+<div class="presentation">
+  <div class="me">
+    <img class="avatar" [src]="user.avatar" alt="Andrea Maccan" />
+    <div class="title">
+      <h2>
+        {{ user.firstname + " " + user.lastname }}
+      </h2>
+      <p>
+        {{ user.title }}<br />
+        {{ user.ubication }}
+      </p>
+    </div>
+  </div>
+
+  <mat-card class="about">
+    <h2>About</h2>
+    <p>{{ user.about }}</p>
+    <app-edition></app-edition>
+  </mat-card>
+</div>

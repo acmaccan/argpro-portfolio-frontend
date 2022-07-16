@@ -1,0 +1,13 @@
+<mat-card class="experience">
+  <app-add></app-add>
+  <h2>Experiencia</h2>
+
+  <div class="mile" *ngFor="let experience of experiences">
+    <div class="thumb"><img [src]="experience.thumb" /></div>
+    <div class="details">
+      <h3>{{experience.institution}} | {{experience.from_date}} - {{experience.to_date}}</h3>
+      <p>{{experience.details}}</p>
+    </div>
+    <app-edition></app-edition>
+  </div>
+</mat-card>

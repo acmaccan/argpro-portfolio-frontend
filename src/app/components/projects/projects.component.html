@@ -1,0 +1,13 @@
+<mat-card class="projects">
+  <app-add></app-add>
+  <h2>Proyectos</h2>
+  <mat-card class="project" *ngFor="let project of projects">
+    <app-edition></app-edition>
+    <div class="thumb"><img [src]="project.image" /></div>
+    <div class="details">
+      <h2>{{project.title}} | {{project.project_year}}</h2>
+      <p>{{project.details}}</p>
+      <mat-icon>laptop_mac</mat-icon><a [href]="project.link">{{project.link}}</a>
+    </div>
+  </mat-card>  
+</mat-card>

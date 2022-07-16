@@ -1,0 +1,13 @@
+<mat-card class="education">
+  <app-add></app-add>
+  <h2>Educación</h2>
+  
+  <div class="mile" *ngFor="let education of educations">
+    <div class="thumb"><img [src]="education.thumb" /></div>
+    <div class="details">
+      <h3>{{education.institution}} | {{education.from_date}} - {{education.to_date}}</h3>
+      <p>{{education.details}}</p>
+    </div>
+    <app-edition></app-edition>
+  </div>
+</mat-card>

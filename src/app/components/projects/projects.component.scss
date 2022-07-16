@@ -1,0 +1,50 @@
+.projects {
+  margin: 2rem;
+  padding: 2rem;
+  background-color: #ebedfc;
+}
+
+.projects h2 {
+  color: darkslateblue;
+}
+
+.projects h3 {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.project {
+  background-color: #eff1f6;
+  display: inline-block;
+  width: 45%;
+  margin: 0 0 1% 1%;
+}
+
+.project .thumb img {
+  width: 100%;
+}
+
+app-edition {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+
+  ::ng-deep .edition mat-icon{
+    color: #eff1f6 !important;
+  }
+}
+
+.project h2 {
+  margin-bottom: 0;
+}
+
+.project a {
+  font-size: small;
+  color: darkslateblue;
+  margin-left: 1rem;
+}
+
+mat-icon {
+  color: darkslateblue;
+  vertical-align:middle;
+}
