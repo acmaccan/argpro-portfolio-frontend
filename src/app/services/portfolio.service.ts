@@ -8,7 +8,8 @@ import { Observable } from 'rxjs';
 })
 export class PortfolioService {
 
-  url = 'http://localhost:8080/';
+  // url = 'http://localhost:8080/';
+  url = 'https://portfolio-frontend-32644.web.app/';
   constructor(private http: HttpClient) { 
     // console.log('Portfolio service is running');
   }
