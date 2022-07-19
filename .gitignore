@@ -42,9 +42,9 @@ testem.log
 Thumbs.db
 
 # Firebase
+/.firebase/*
 .firebaserc
 firebase.json
-/.firebase
 
 # Github workflows
 .github/workflows

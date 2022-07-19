@@ -13,7 +13,7 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
     this.portfolioService.getUserData().subscribe(data => {
-      // console.log("Header component: ", data); We recieve the complete object on the console
+      console.log("Header component: ", data); // We recieve the complete object on the console
       this.user = data; // We recieve the data and store it in a variable
     })
   }

@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 export class PortfolioService {
 
   // url = 'http://localhost:8080/';
-  url = 'https://mighty-thicket-49246.herokuapp.com/';
+  url = 'https://mighty-thicket-49246.herokuapp.com';
   constructor(private http: HttpClient) { 
     // console.log('Portfolio service is running');
   }
